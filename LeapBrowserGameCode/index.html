@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Exercise Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+    <select id="exerciseSelect">
+        <option value="thumb_index_pinch">Thumb Index Pinch</option>
+        <option value="make_a_fist">Make a Fist</option>
+        <option value="pronation_supination">Pronation/Supination</option>
+        
+    </select>
+    
+    <select id="gameMode">
+      <option value="regular">Regular Game</option>
+      <option value="endless">Endless Mode</option>
+    </select>
+    
+    <label for="rangeSlider">Movement Range: <span id="rangeValue">100</span>%</label>
+    <input type="range" id="rangeSlider" min="10" max="100" value="100" step="10">
+    
+    <button id="startButton">Start Game</button>
+    <button id="stopButton">Stop Game</button>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="debugOutput"></div>
+
+    <script src="gameAudio.js" type="module"></script>
+    <script src="backgroundMusic.js" type="module"></script>
+    <script src="game.js" type="module"></script>
+</body>
+</html>
