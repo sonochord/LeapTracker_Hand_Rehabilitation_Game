@@ -29,8 +29,8 @@ Before compiling and running LeapTracker, ensure you have the following:
 
 1. Clone the LeapTracker repository:
    ```
-   git clone [repository_url]
-   cd LeapTracker
+   git clone https://github.com/sonochord/LeapTracker_Hand_Rehabilitation_Game/tree/main
+   cd LeapTracker_Hand_Rehabilitation_Game
    ```
 
 2. Set up vcpkg and install required packages:
