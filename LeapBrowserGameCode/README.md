@@ -30,8 +30,8 @@ Before running the game, ensure you have the following:
 
 1. Clone the game repository:
    ```
-   git clone https://github.com/sonochord/LeapTracker_Hand_Rehabilitation_Game.git
-   cd hand-rehabilitation-game
+   git clone https://github.com/sonochord/LeapTracker_Hand_Rehabilitation_Game/tree/main
+   cd hand_rehabilitation_game
    ```
 
 2. Install dependencies:
