@@ -36,8 +36,8 @@ pip install numpy pandas matplotlib seaborn
 ## Installation
 1. Clone the repository containing the `LeapTrackerAnalysis.py` script:
    ```bash
-   git clone [repository_url]
-   cd [repository_directory]
+   git clone https://github.com/sonochord/LeapTracker_Hand_Rehabilitation_Game/tree/main
+   cd LeapTracker_Hand_Rehabilitation_Game
    ```
 2. Ensure the script is in the same directory as your LeapTracker CSV files.
 
